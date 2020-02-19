@@ -44,7 +44,7 @@ except:
     from PySide.QtGui import *
 
 
-class Prism_prismTruemax_Functions(object):
+class Prism_PrismTruemax_Functions(object):
     def __init__(self, core, plugin):
         self.core = core
         self.plugin = plugin
@@ -59,7 +59,7 @@ class Prism_prismTruemax_Functions(object):
             except Exception as e:
                 exc_type, exc_obj, exc_tb = sys.exc_info()
                 erStr = (
-                    "%s ERROR - Prism_Plugin_prismTruemax - Core: %s - Plugin: %s:\n%s\n\n%s"
+                    "%s ERROR - Prism_Plugin_PrismTruemax - Core: %s - Plugin: %s:\n%s\n\n%s"
                     % (
                         time.strftime("%d/%m/%y %X"),
                         args[0].core.version,

@@ -31,9 +31,9 @@
 # along with Prism.  If not, see <https://www.gnu.org/licenses/>.
 
 
-class Prism_prismTruemax_Variables(object):
+class Prism_PrismTruemax_Variables(object):
     def __init__(self, core, plugin):
         self.version = "v1.2.1.0"
-        self.pluginName = "prismTruemax"
+        self.pluginName = "PrismTruemax"
         self.pluginType = "Custom"
         self.platforms = ["Windows", "Linux", "Darwin"]

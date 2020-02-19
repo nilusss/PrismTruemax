@@ -31,11 +31,11 @@
 # along with Prism.  If not, see <https://www.gnu.org/licenses/>.
 
 
-from Prism_prismTruemax_Variables import Prism_prismTruemax_Variables
-from Prism_prismTruemax_Functions import Prism_prismTruemax_Functions
+from Prism_PrismTruemax_Variables import Prism_PrismTruemax_Variables
+from Prism_PrismTruemax_Functions import Prism_PrismTruemax_Functions
 
 
-class Prism_prismTruemax(Prism_prismTruemax_Variables, Prism_prismTruemax_Functions):
+class Prism_PrismTruemax(Prism_PrismTruemax_Variables, Prism_PrismTruemax_Functions):
     def __init__(self, core):
-        Prism_prismTruemax_Variables.__init__(self, core, self)
-        Prism_prismTruemax_Functions.__init__(self, core, self)
+        Prism_PrismTruemax_Variables.__init__(self, core, self)
+        Prism_PrismTruemax_Functions.__init__(self, core, self)
