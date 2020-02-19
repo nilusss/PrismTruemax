@@ -4,7 +4,7 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-!Scripts/tempCodeRunnerFile.py
+tempCodeRunnerFile.*
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
